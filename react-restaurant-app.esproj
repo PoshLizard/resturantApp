@@ -10,9 +10,11 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+  
   <ItemGroup>
     <Folder Include="src\Components\Header\" />
     <Folder Include="src\Components\CustomButton\" />
+
     <Folder Include="src\Components\Footer\" />
     <Folder Include="src\Components\CustomCard\" />
     <Folder Include="src\LayoutRoutes\" />

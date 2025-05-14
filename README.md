@@ -1,15 +1,8 @@
-# React Restaurant App
-
-Welcome to React Restaurant App! This is a sample restaurant application built using React, Material-UI, and Vite. It allows users to browse the restaurant's menu and explore various dishes.
-
 ## Features
 
 - Browse the Menu: View a list of delicious dishes available at our restaurant.
 - Responsive Design: The app is designed to work seamlessly across different devices.
 
-## Demo
-
-Check out the live demo of the app: [React Restaurant App Demo](https://ideepakpg.github.io/react-restaurant-app/)
 
 ## Technologies Used
 
