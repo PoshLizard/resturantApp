@@ -1,7 +1,7 @@
 import React from "react";
 import { styled, Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import houseCard from "../../assets/ambience.jpg";
+import houseCard from "../../assets/ambience.jpeg";
 
 
 
@@ -92,7 +92,7 @@ const AmbiencePage = () => {
                                 my: 3,
                             }}
                         >
-                            You've found a ambiance you love.
+                            You&apos;ve found an ambiance you love.
                         </Typography>
 
                         <Typography

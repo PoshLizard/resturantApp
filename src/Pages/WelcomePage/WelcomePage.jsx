@@ -32,8 +32,23 @@ const WelcomePage = () => {
 
 
     return (
-        <Box sx={{ backgroundColor: "#FED801", minHeight: "80vh" }}>
-            <Container>
+        <Box sx={{
+            backgroundImage: `url(${welcome})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            minHeight: "80vh",
+            position: 'relative',
+        }}>
+            <Box sx={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundColor: 'rgba(254, 216, 1, 0.7)',
+                zIndex: 1,
+            }} />
+            <Container sx={{ position: 'relative', zIndex: 2 }}>
                 <CustomBox>
                     <Box sx={{ flex: "1" }}>
                         <Typography
@@ -46,10 +61,10 @@ const WelcomePage = () => {
                                 mb: 4,
                             }}
                         >
-                            Welcome to Hungry Restaurant
+                            Welcome to Eats And Vibes
                         </Typography>
                         <Title variant="h1">
-                            Discover a place where you'll love to Eat.
+                            Heaven On Earth
                         </Title>
                         <Typography
                             variant="body2"
@@ -78,5 +93,5 @@ const WelcomePage = () => {
     );
 };
 
-
 export default WelcomePage;
+

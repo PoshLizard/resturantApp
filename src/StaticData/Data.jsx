@@ -1,5 +1,5 @@
-import Food1 from '../assets/Food1.jpg'
-import Food2 from '../assets/Food2.jpg'
+import Food1 from '../assets/Food1.jpeg'
+import Food2 from '../assets/Food2.jpeg'
 import Food3 from '../assets/Food3.jpeg'
 
 
@@ -18,7 +18,7 @@ export const Data = [
         id: "2",
         img: Food2,
         price: "25",
-        item: "London Popcorn",
+        item: "Tenders",
         likes: 3,
         heart: 2,
         share: 2300,
@@ -28,7 +28,7 @@ export const Data = [
         id: "3",
         img: Food3,
         price: "50",
-        item: "Shawarma Pro",
+        item: "Cocktails",
         likes: 4,
         heart: 3,
         share: 3000,
